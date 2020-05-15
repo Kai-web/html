@@ -1,0 +1,224 @@
+/*项目名：吾言*/
+ul,
+li,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 1142px;
+    height: 90px;
+    background-color: #733536;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo_sty {
+    margin-top: 25px;
+}
+
+.slider {
+    width: 1142px;
+    height: 490px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 4;
+}
+
+.slider label,
+.slider span {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    position: absolute;
+    top: 198px;
+    color: #733536;
+    z-index: 5;
+    text-align: center;
+    line-height: 60px;
+    font-size: 50px;
+    border: 1px solid #fff;
+    opacity: 0.6;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.slider label:hover,
+.slider span:hover {
+    opacity: 0.8;
+
+}
+
+.slider label {
+    left: 0;
+}
+
+.slider span {
+    right: 0;
+}
+
+.slider ul li {
+    float: left;
+}
+
+.slider ul li img {
+    width: 1142px;
+    height: 490px;
+}
+
+.slider_pointerId {
+    position: absolute;
+    height: 15px;
+    left: 50%;
+    border-radius: 10px;
+    z-index: 5;
+    bottom: 3px;
+    opacity: 0.6;
+}
+
+.slider_pointerId p {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-color: #8d8080;
+    margin: 0 10px 0 0;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.slider_pointerId p.focus_p {
+    background-color: #c00c0c;
+}
+
+.slider_pointerId p:hover {
+    background-color: #c00c0c;
+}
+
+.nav {
+    width: 802px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.menu_title {
+    color: #ffffff;
+    float: right;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu_title p {
+    margin: 0;
+}
+
+.menu_wrap {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: -20px;
+    top: 25px;
+    background-color: #733536;
+    display: none;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    color: #ffffff;
+    float: left;
+    padding-right: 60px;
+    font-size: 13px;
+    position: relative;
+}
+
+.nav li a {
+    position: relative;
+    color: #ffffff;
+}
+
+.nav li a i {
+    position: absolute;
+    background-color: #ff7f50;
+    right: -30px;
+    top: -10px;
+    font-style: normal;
+    padding: 0 2px;
+    border-radius: 3px;
+}
+
+.pop_up {
+    position: absolute;
+    left: -12px;
+    top: 12px;
+    background-color: #733536;
+    display: none;
+    border-radius: 3px;
+}
+
+.product_1 {
+    width: 711px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.product_1 li {
+    float: left;
+}
+
+.product_1 li p {
+    color: #733536;
+    text-align: center;
+    margin: 0;
+}
+
+.product_2 {
+    text-align: center;
+}
+
+.product_3 {
+    width: 716px;
+    height: 295px;
+    margin: 11px auto;
+}
+
+.product_3 dl {
+    width: 229px;
+    height: 290px;
+    border: 1px solid #733536;
+    float: left;
+}
+
+.mr9 {
+    margin-right: 9px;
+}
+
+.product_3 dl dt {
+    width: 136px;
+    height: 91px;
+    background-image: url("../image/temp_6.jpg");
+    margin: 13px auto;
+}
+
+.product_3 dl dd {
+    text-align: center;
+}
